@@ -5,22 +5,18 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: whitesmoke;
 }
-/* main{
-    /* display: flex;
-    align-items: center;
-} */
 .nav-right{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 nav a{
 text-decoration: none;
 color: black;
+margin-left: 15px;
 }
 .container{
 display: flex;
 justify-content: center;
-
 }
 .img-part-1{
 width: 440px;
@@ -41,15 +37,21 @@ height: 414px;
  /* ---------------
  collection style 
  -----------------*/
-    .collection{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        /* grid-template-columns: 1fr 1fr 1fr; */
-        grid-gap: 30px;    
+    
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 22px;
+    
 }
-.collections .collection-picture img{
-    width: 224px;
-    height: 104px;
+.collection{
+    box-shadow: white;
+    border-radius: 15px;
+}
+
+.collection .collection-picture img{
+    width: 200px;
+    height: 150px;
 }
 .far-star{
     font-size: 12px;
@@ -60,10 +62,5 @@ height: 414px;
 .fa-star.empty{
     color: #AEAEAE;
  } 
-/* .collection-info{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    align-content: center;
-} */
+
  
