@@ -4,7 +4,6 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: whitesmoke;
-    padding: 40px;
 }
 .top-infuencer{
     position: static;
@@ -71,6 +70,7 @@ height: 414px;
 
  footer{
 background-color: slategray;
+text-align: center;
+color: white;
+padding: 30px;
  }
-
- 
