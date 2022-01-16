@@ -4,6 +4,10 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: whitesmoke;
+    padding: 40px;
+}
+.top-infuencer{
+    position: static;
 }
 .nav-right{
     display: flex;
@@ -17,6 +21,7 @@ margin-left: 15px;
 .container{
 display: flex;
 justify-content: center;
+margin-top: 100px;
 }
 .img-part-1{
 width: 440px;
@@ -45,8 +50,9 @@ height: 414px;
     
 }
 .collection{
-    box-shadow: white;
+    box-shadow:white;
     border-radius: 15px;
+    margin: 30px;
 }
 
 .collection .collection-picture img{
@@ -62,5 +68,9 @@ height: 414px;
 .fa-star.empty{
     color: #AEAEAE;
  } 
+
+ footer{
+background-color: slategray;
+ }
 
  
